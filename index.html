@@ -29,56 +29,52 @@
         <a class="navbar-brand" href="#">
           <img src="/assets/img/logo.png" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ml-auto">
-            <a href="#" class="navbar__phone">
-              <div class="navbar__phone__icon">
-                <img src="/assets/img/phone.png" />
-              </div>
-              <div class="navbar__phone__contact">
-                <p>HELP CENTER. (8AM-7PM MON-FRI)</p>
-                <span>1300 190 429</span>
-              </div>
-            </a>
-          </div>
+        <div class="navbar-nav ml-auto">
+          <a href="#" class="navbar__phone">
+            <div class="navbar__phone__icon">
+              <img src="/assets/img/phone.png" />
+            </div>
+            <div class="navbar__phone__contact d-none">
+              <p>HELP CENTER. (8AM-7PM MON-FRI)</p>
+              <span>1300 190 429</span>
+            </div>
+          </a>
         </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse"></div>
       </div>
     </nav>
 
     <div class="hero d-flex flex-column justify-content-center">
-      <h1 class="text-center text-white">
-        Compare <span>Home Loans</span> & Save!
-      </h1>
-      <div class="home__cards">
-        <a href="#" class="home__card">
-          <div>
-            <img src="/assets/img/house.png" class="d-block mx-auto" />
-          </div>
-          <p><span>Purchase</span> a home or move</p>
-        </a>
-        <a href="#" class="home__card">
-          <div>
-            <img src="/assets/img/presentation.png" class="d-block mx-auto" />
-          </div>
-          <p><span>Refinance</span> or renovate</p>
-        </a>
+      <div class="container">
+        <h1 class="text-center text-white">
+          Compare <span>Home Loans</span> & Save!
+        </h1>
+        <div class="home__cards">
+          <a href="#" class="home__card">
+            <div class="home__card__image">
+              <img src="/assets/img/house.png" class="d-block mx-auto" />
+            </div>
+            <div class="home__card__text">
+              <p><span>Purchase</span> a home or move</p>
+            </div>
+          </a>
+          <a href="#" class="home__card">
+            <div class="home__card__image">
+              <img src="/assets/img/presentation.png" class="d-block mx-auto" />
+            </div>
+            <div class="home__card__text">
+              <p><span>Refinance</span> or renovate</p>
+
+              <p></p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
     <section class="container section-first-feature">
       <div class="row">
-        <div class="col px-4">
+        <div class="col-12 col-md-6 px-4">
           <h2 class="d-flex align-items-center">
             Powered By <img src="/assets/img/eChoice.png" />
           </h2>
@@ -104,12 +100,15 @@
             </li>
           </ul>
 
-          <img src="/assets/img/logo-list.png" class="d-block mx-auto" />
+          <img src="/assets/img/logo-list.png" class="d-block mx-auto mw-100" />
         </div>
-        <div class="col px-4">
+        <div class="col-12 col-md-6 px-4">
           <h2>Compare 25+ Lenders</h2>
 
-          <img src="/assets/img/list-lenders.png" class="d-block mx-auto" />
+          <img
+            src="/assets/img/list-lenders.png"
+            class="d-block mx-auto mw-100"
+          />
           <hr />
 
           <div class="promo">
@@ -134,73 +133,77 @@
         </div>
       </div>
     </section>
-    <div class=" section-affordable">
-      <div class="container">
-        <div class="row">
-          <div class="col-7 offset-md-5">
-            <h3>Affordable Rate</h3>
-            <p>
-              Find an affordable home loan rate with our free rate report
-              service, Simply complete your details in the home loan report tool
-              above, and you’ll find out:
-            </p>
-            <ul>
-              <li>
-                <div class="bullet"><img src="/assets/img/check.png" /></div>
-                <span>Over 15 years experience</span>
-              </li>
-              <li>
-                <div class="bullet"><img src="/assets/img/check.png" /></div>
-                <span
-                  >They’ve helped more than 50,000 Australians find the right
-                  home loan</span
-                >
-              </li>
-              <li>
-                <div class="bullet"><img src="/assets/img/check.png" /></div>
-                <span
-                  >National network of fully accredited mortgage brokers</span
-                >
-              </li>
-              <li>
-                <div class="bullet"><img src="/assets/img/check.png" /></div>
-                <span
-                  >National network of fully accredited mortgage brokers</span
-                >
-              </li>
-            </ul>
+    <div class="">
+      <div class="section-affordable">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 bg-affordable"></div>
+            <div class="col-12">
+              <h3>Affordable Rate</h3>
+              <p>
+                Find an affordable home loan rate with our free rate report
+                service, Simply complete your details in the home loan report
+                tool above, and you’ll find out:
+              </p>
+              <ul>
+                <li>
+                  <div class="bullet"><img src="/assets/img/check.png" /></div>
+                  <span>Over 15 years experience</span>
+                </li>
+                <li>
+                  <div class="bullet"><img src="/assets/img/check.png" /></div>
+                  <span
+                    >They’ve helped more than 50,000 Australians find the right
+                    home loan</span
+                  >
+                </li>
+                <li>
+                  <div class="bullet"><img src="/assets/img/check.png" /></div>
+                  <span
+                    >National network of fully accredited mortgage brokers</span
+                  >
+                </li>
+                <li>
+                  <div class="bullet"><img src="/assets/img/check.png" /></div>
+                  <span
+                    >National network of fully accredited mortgage brokers</span
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     <section class="section-testimonial">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <h3>Customer Review</h3>
-            <div class="feature">
-              <div class="feature__score">
-                4.9
-              </div>
-              <div class="feature__content">
-                <div class="stars">
-                  <img src="/assets/img/star.png" />
-                  <img src="/assets/img/star.png" />
-                  <img src="/assets/img/star.png" />
-                  <img src="/assets/img/star.png" />
-                  <img src="/assets/img/star.png" />
+            <div class="feature__container">
+              <div class="feature">
+                <div class="feature__score">
+                  4.9
                 </div>
-                <span>Out of 5</span>
+                <div class="feature__content">
+                  <div class="stars">
+                    <img src="/assets/img/star.png" />
+                    <img src="/assets/img/star.png" />
+                    <img src="/assets/img/star.png" />
+                    <img src="/assets/img/star.png" />
+                    <img src="/assets/img/star.png" />
+                  </div>
+                  <span>Out of 5</span>
+                </div>
               </div>
+              <p>
+                Over 95% of our customers recommend us on Product Review Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id
+                malesuada tortor.
+              </p>
             </div>
-            <p>
-              Over 95% of our customers recommend us on Product Review Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id
-              malesuada tortor.
-            </p>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="testimonial__overlap">
               <div class="testimonial">
                 <h4>Smooth Process</h4>
@@ -266,36 +269,41 @@
 
     <footer>
       <div class="container">
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-      </ul>
-      <p>
-        The information on this Website is provided for information purposes,
-        general interest and enquiry only. It has been prepared without taking
-        into account your objectives, financial situation or particular needs
-        and it should not be taken as financial advice. All comparisons are
-        prepared by eChoice.com.au Pty Ltd. eChoice.com.au Pty Ltd (ABN 59 082
-        572 683 Australian Credit Licence 390528). While we use reasonable
-        efforts to ensure that the information on this Website is complete and
-        up to date, to the extent permitted by law, we make no warranty or
-        representation as to the accuracy, currency or completeness of any
-        information on this Website. The use of this Website is at your own
-        risk. Information may change without notice. Before relying on any
-        information on this Website, you should first verify the accuracy of the
-        information and its relevance. This may mean contacting a finance broker
-        before relying on any information on this Website.
-      </p>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div>
+          <p>
+            The information on this Website is provided for information
+            purposes, general interest and enquiry only. It has been prepared
+            without taking into account your objectives, financial situation or
+            particular needs and it should not be taken as financial advice. All
+            comparisons are prepared by eChoice.com.au Pty Ltd. eChoice.com.au
+            Pty Ltd (ABN 59 082 572 683 Australian Credit Licence 390528). While
+            we use reasonable efforts to ensure that the information on this
+            Website is complete and up to date, to the extent permitted by law,
+            we make no warranty or representation as to the accuracy, currency
+            or completeness of any information on this Website.
+          </p>
+          <p>
+            The use of this Website is at your own risk. Information may change
+            without notice. Before relying on any information on this Website,
+            you should first verify the accuracy of the information and its
+            relevance. This may mean contacting a finance broker before relying
+            on any information on this Website.
+          </p>
 
-      <hr />
+          <hr />
 
-      <div class="footer__bottom">
-        <img src="assets/img/logo.png" />
-        <span>724-728 George St, Sydney, New South Wales 2000</span>
+          <div class="footer__bottom">
+            <img src="assets/img/logo.png" />
+            <span>724-728 George St, Sydney, New South Wales 2000</span>
+          </div>
+        </div>
       </div>
-    </div>
     </footer>
     <!-- Bootstrap core JavaScript
 ================================================== -->

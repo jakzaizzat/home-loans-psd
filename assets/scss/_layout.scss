@@ -14,45 +14,67 @@
   }
   &__contact {
     padding-left: 10px;
-    line-height: 1.2;
     p {
       margin-bottom: 0px;
       font-size: 0.8rem;
+      font-weight: normal;
       color: $yellow;
+      line-height: 1;
     }
     span {
       color: $gray;
       font-size: 1.2rem;
+      font-family: $font-proxima;
     }
   }
 }
 .hero {
-  height: 60vh;
+  height: 70vh;
   background-color: $primary-color;
   background-image: url("/assets/img/bg.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  h1 {
+    font-family: $font-proxima;
+    font-weight: 300;
+    font-style: italic;
+    span {
+      font-weight: 500;
+    }
+  }
 }
 .home__cards {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
 }
 .home__card {
   background-color: #45aea6;
-  border-radius: 5px 5px 0 0;
   margin: 1rem;
-  width: 300px;
-  div {
-    padding: 2rem 0;
-  }
-  p {
-    padding: 1rem 1rem;
-    text-align: center;
-    color: #767676;
+  display: flex;
+  &__image {
+    padding: 20px;
     background-color: $white;
+    border-radius: 5px 0 0 5px;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  &__text {
+    padding-left: 20px;
+    color: $white;
+    background-color: #44aea5;
     margin-bottom: 0px;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    p {
+      margin-bottom: 0;
+    }
     span {
       font-weight: 600;
     }
@@ -69,6 +91,12 @@
   hr {
     margin: 20px 0;
   }
+  .col-12 {
+    padding: 20px 0;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
   .promo {
     display: flex;
     align-items: center;
@@ -83,14 +111,18 @@
     }
   }
 }
-
-.section-affordable {
-  padding: 5rem 0;
+.bg-affordable {
+  height: 300px;
   background-image: urL("/assets/img/affordable-rate.png");
   background-repeat: no-repeat;
   background-position: left;
+  background-size: contain;
+}
+.section-affordable {
+  //   padding: 5rem 0;
   ul {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     li {
       flex: 1 1 50%;
@@ -107,6 +139,14 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      p {
+        flex: 1 1;
+        padding-left: 20px;
+      }
+    }
     &__score {
       height: 100px;
       width: 100px;
@@ -117,6 +157,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      background-image: url("/assets/img/wave-circle-bg.png");
+      background-position: bottom;
+      background-repeat: no-repeat;
     }
     &__content {
       padding-left: 20px;
@@ -129,6 +172,9 @@
   .testimonial {
     font-size: 0.9rem;
     padding: 10px 0;
+    h4 {
+      font-size: 1.2rem;
+    }
     &__meta {
       font-size: 0.8rem;
       display: flex;
@@ -145,13 +191,17 @@
     p {
       line-height: 1.2;
     }
-
     &__overlap {
       border-radius: 10px;
-      box-shadow: 0px 3px 35px rgba(223, 222, 222, 0.45);
+      border: 1px solid #e8e8e8;
+      //   box-shadow: 0px 3px 35px rgba(223, 222, 222, 0.45);
       padding: 20px 40px;
-      margin: -8rem 0;
       background-color: $white;
+    }
+    @media (min-width: 992px) {
+      &__overlap {
+        margin: -8rem 0;
+      }
     }
   }
 
@@ -165,20 +215,28 @@
     border-bottom: 4px solid #218f87;
     padding: 15px 0;
     &:hover {
-      border-bottom: none;
+      border-bottom-color: $primary-color;
     }
   }
 }
 
 footer {
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
   background-color: #f9f9f9;
-
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   ul {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
     li {
-      display: inline-block;
       font-size: 0.9rem;
-      margin-right: 20px;
+      //margin-right: 20px;
+      a {
+        font-weight: 400;
+      }
     }
   }
 
@@ -196,7 +254,14 @@ footer {
     display: flex;
     justify-content: space-between;
     color: #a5a5a5;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     align-items: center;
+    img {
+      width: 300px;
+      height: auto;
+    }
+    span {
+      padding-left: 20px;
+    }
   }
 }
