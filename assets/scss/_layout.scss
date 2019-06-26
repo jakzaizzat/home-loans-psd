@@ -126,6 +126,7 @@
   }
   h2 {
     margin-bottom: 20px;
+    font-weight: 400;
   }
   .promo {
     display: flex;
@@ -138,6 +139,7 @@
     }
     div {
       padding: 0 10px;
+      flex: 1 1;
     }
   }
 }
