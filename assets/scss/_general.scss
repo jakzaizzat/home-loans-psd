@@ -18,3 +18,26 @@ h2 {
 p {
   line-height: 1.5;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .bullet {
+      background-color: #eff4f7;
+      border-radius: 50%;
+      height: 2.125rem;
+      width: 2.125rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+    span {
+      flex: 1 1;
+    }
+  }
+}

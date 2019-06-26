@@ -32,6 +32,7 @@
   background-image: url("/assets/img/bg.png");
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .home__cards {
   display: flex;
@@ -61,28 +62,9 @@
   }
 }
 
-.first-feature {
+.section-first-feature {
   p {
     line-height: 2;
-  }
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    li {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-      .bullet {
-        background-color: #eff4f7;
-        border-radius: 50%;
-        height: 2.125rem;
-        width: 2.125rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 20px;
-      }
-    }
   }
   hr {
     margin: 20px 0;
@@ -98,6 +80,20 @@
     }
     div {
       padding: 0 10px;
+    }
+  }
+}
+
+.section-affordable {
+  padding: 5rem 0;
+  background-image: urL("/assets/img/affordable-rate.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      flex: 1 1 50%;
     }
   }
 }
