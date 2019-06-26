@@ -10681,7 +10681,7 @@ ul li span {
 }
 
 .hero {
-  height: 70vh;
+  padding: 5rem 0;
   background-color: #25a69d;
   background-image: url("/assets/img/bg.png");
   background-position: bottom;
