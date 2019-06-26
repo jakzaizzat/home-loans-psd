@@ -1,1 +1,103 @@
 // Layout Style
+.navbar__phone {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  &__icon {
+    background-color: $primary-color;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__contact {
+    padding-left: 10px;
+    line-height: 1.2;
+    p {
+      margin-bottom: 0px;
+      font-size: 0.8rem;
+      color: $yellow;
+    }
+    span {
+      color: $gray;
+      font-size: 1.2rem;
+    }
+  }
+}
+.hero {
+  height: 60vh;
+  background-color: $primary-color;
+  background-image: url("/assets/img/bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.home__cards {
+  display: flex;
+  margin: 0 auto;
+}
+.home__card {
+  background-color: #45aea6;
+  border-radius: 5px 5px 0 0;
+  margin: 1rem;
+  width: 300px;
+  div {
+    padding: 2rem 0;
+  }
+  p {
+    padding: 1rem 1rem;
+    text-align: center;
+    color: #767676;
+    background-color: $white;
+    margin-bottom: 0px;
+    border-radius: 0 0 5px 5px;
+    span {
+      font-weight: 600;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.first-feature {
+  p {
+    line-height: 2;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      .bullet {
+        background-color: #eff4f7;
+        border-radius: 50%;
+        height: 2.125rem;
+        width: 2.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+      }
+    }
+  }
+  hr {
+    margin: 20px 0;
+  }
+  .promo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    img {
+      width: 100px;
+      height: auto;
+      display: block;
+    }
+    div {
+      padding: 0 10px;
+    }
+  }
+}

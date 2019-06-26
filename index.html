@@ -11,7 +11,6 @@
     <link rel="icon" href="favicon.ico" />
 
     <title>Bootstrap Stater</title>
-
     <!-- Icons for this template -->
     <link
       href="assets/fonts/font-awesome/css/font-awesome.min.css"
@@ -25,61 +24,125 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-        aria-controls="navbarCollapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
-            <i class="fa fa-search" aria-hidden="true"></i> Search
-          </button>
-        </form>
+    <nav class="navbar navbar-expand-md bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ml-auto">
+            <a href="#" class="navbar__phone">
+              <div class="navbar__phone__icon">
+                <img src="/assets/img/phone.png" />
+              </div>
+              <div class="navbar__phone__contact">
+                <p>HELP CENTER. (8AM-7PM MON-FRI)</p>
+                <span>1300 190 429</span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
 
-    <main role="main" class="container">
-      <div class="jumbotron text-center">
-        <img src="assets/img/logo.png" />
-        <h1>Bootstrap 4 Starter Template kan</h1>
-        <p class="lead">This example is a quick bootstrap starter template.</p>
-        <a
-          class="btn btn-lg btn-primary"
-          href="https://getbootstrap.com/docs/4.3/getting-started/introduction/"
-          role="button"
-          target="_blank"
-          >View Bootstrap 4.1 Docs &raquo;</a
-        >
+    <div class="hero d-flex flex-column justify-content-center">
+      <h1 class="text-center text-white">
+        Compare <span>Home Loans</span> & Save!
+      </h1>
+      <div class="home__cards">
+        <a href="#" class="home__card">
+          <div>
+            <img src="/assets/img/house.png" class="d-block mx-auto" />
+          </div>
+          <p><span>Purchase</span> a home or move</p>
+        </a>
+        <a href="#" class="home__card">
+          <div>
+            <img src="/assets/img/presentation.png" class="d-block mx-auto" />
+          </div>
+          <p><span>Refinance</span> or renovate</p>
+        </a>
       </div>
-    </main>
+    </div>
+
+    <section class="container first-feature">
+      <div class="row">
+        <div class="col px-4">
+          <h2 class="d-flex align-items-center">
+            Powered By <img src="/assets/img/eChoice.png" />
+          </h2>
+          <p>
+            eChoice is one of Australia’s leading and award winning mortgage
+            broking groups. Their aim is to provide Australians expert advice
+            and superior service using a unique combination of people and
+            technology.
+          </p>
+          <ul>
+            <li>
+              <div class="bullet"><img src="/assets/img/check.png" /></div>
+              Over 15 years experience
+            </li>
+            <li>
+              <div class="bullet"><img src="/assets/img/check.png" /></div>
+              They’ve helped more than 50,000 Australians find the right home
+              loan
+            </li>
+            <li>
+              <div class="bullet"><img src="/assets/img/check.png" /></div>
+              National network of fully accredited mortgage brokers
+            </li>
+          </ul>
+
+          <img src="/assets/img/logo-list.png" class="d-block mx-auto" />
+        </div>
+        <div class="col px-4">
+          <h2>Compare 25+ Lenders</h2>
+
+          <img src="/assets/img/list-lenders.png" class="d-block mx-auto" />
+          <hr />
+
+          <div class="promo">
+            <img src="/assets/img/25-lenders.png" />
+            <div>
+              <span
+                ><strong>Home Loan Assessment</strong> Over 25 <br />Lenders &
+                100’s of Loans</span
+              >
+            </div>
+          </div>
+
+          <div class="promo">
+            <img src="/assets/img/free-report.png" />
+            <div>
+              <span
+                ><strong>Property Report</strong><br />
+                Valued At $39.50</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-7 offset-md-5">
+          <h3>Affordable Rate</h3>
+          <p>Find an Affordable</p>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
 ================================================== -->
