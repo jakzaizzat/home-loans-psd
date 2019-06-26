@@ -25,22 +25,21 @@
 
   <body>
     <nav class="navbar navbar-expand-md bg-white">
-      <div class="container">
+      <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="#">
           <img src="/assets/img/logo.png" />
         </a>
-        <div class="navbar-nav ml-auto">
+        <div class="navbar-nav  ml-auto">
           <a href="#" class="navbar__phone">
             <div class="navbar__phone__icon">
               <img src="/assets/img/phone.png" />
             </div>
-            <div class="navbar__phone__contact d-none">
+            <div class="navbar__phone__contact d-none d-md-block">
               <p>HELP CENTER. (8AM-7PM MON-FRI)</p>
               <span>1300 190 429</span>
             </div>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="navbarCollapse"></div>
       </div>
     </nav>
 
@@ -52,7 +51,14 @@
         <div class="home__cards">
           <a href="#" class="home__card">
             <div class="home__card__image">
-              <img src="/assets/img/house.png" class="d-block mx-auto" />
+              <img
+                src="/assets/img/house.png"
+                class="d-block d-md-none mx-auto"
+              />
+              <img
+                src="/assets/img/house-white.png"
+                class="d-none d-md-block mx-auto"
+              />
             </div>
             <div class="home__card__text">
               <p><span>Purchase</span> a home or move</p>
@@ -60,7 +66,14 @@
           </a>
           <a href="#" class="home__card">
             <div class="home__card__image">
-              <img src="/assets/img/presentation.png" class="d-block mx-auto" />
+              <img
+                src="/assets/img/presentation.png"
+                class="d-block d-md-none mx-auto"
+              />
+              <img
+                src="/assets/img/presentation-white.png"
+                class="d-none d-md-block mx-auto"
+              />
             </div>
             <div class="home__card__text">
               <p><span>Refinance</span> or renovate</p>
@@ -87,16 +100,18 @@
           <ul>
             <li>
               <div class="bullet"><img src="/assets/img/check.png" /></div>
-              Over 15 years experience
+              <span>Over 15 years experience</span>
             </li>
             <li>
               <div class="bullet"><img src="/assets/img/check.png" /></div>
-              They’ve helped more than 50,000 Australians find the right home
-              loan
+              <span
+                >They’ve helped more than 50,000 Australians find the right home
+                loan</span
+              >
             </li>
             <li>
               <div class="bullet"><img src="/assets/img/check.png" /></div>
-              National network of fully accredited mortgage brokers
+              <span>National network of fully accredited mortgage brokers</span>
             </li>
           </ul>
 
@@ -135,10 +150,12 @@
     </section>
     <div class="">
       <div class="section-affordable">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-12 bg-affordable"></div>
-            <div class="col-12">
+            <div class="col-12 col-md-6 pl-0">
+              <img src="/assets/img/affordable-rate.png" class="img-bg" />
+            </div>
+            <div class="col-12 col-md-5 py-5">
               <h3>Affordable Rate</h3>
               <p>
                 Find an affordable home loan rate with our free rate report
@@ -148,26 +165,19 @@
               <ul>
                 <li>
                   <div class="bullet"><img src="/assets/img/check.png" /></div>
-                  <span>Over 15 years experience</span>
+                  <span>Your borrowing power</span>
                 </li>
                 <li>
                   <div class="bullet"><img src="/assets/img/check.png" /></div>
-                  <span
-                    >They’ve helped more than 50,000 Australians find the right
-                    home loan</span
-                  >
+                  <span>Number of Qualified Lenders</span>
                 </li>
                 <li>
                   <div class="bullet"><img src="/assets/img/check.png" /></div>
-                  <span
-                    >National network of fully accredited mortgage brokers</span
-                  >
+                  <span>Your Interest & Comparison Rate</span>
                 </li>
                 <li>
                   <div class="bullet"><img src="/assets/img/check.png" /></div>
-                  <span
-                    >National network of fully accredited mortgage brokers</span
-                  >
+                  <span>Your Loan Repayment amount</span>
                 </li>
               </ul>
             </div>
@@ -178,7 +188,7 @@
     <section class="section-testimonial">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-md-6">
             <h3>Customer Review</h3>
             <div class="feature__container">
               <div class="feature">
@@ -203,7 +213,7 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-md-6">
             <div class="testimonial__overlap">
               <div class="testimonial">
                 <h4>Smooth Process</h4>
@@ -224,7 +234,7 @@
                 </p>
               </div>
               <div class="testimonial">
-                <h4>Smooth Process</h4>
+                <h4>Been great for us!</h4>
                 <div class="testimonial__meta">
                   <div class="stars">
                     <img src="/assets/img/star.png" />
@@ -236,13 +246,13 @@
                   <span>by Jeff on 8-4-2017</span>
                 </div>
                 <p>
-                  Jarryd was instrumental in making sure everything ran smoothly
-                  for us. He was readily available to answer any questions we
-                  asked. Was a pleasure to...
+                  Kristy was very responsive & professional. She was able to
+                  describe the product extremely well & clarified willingly when
+                  we didn't quite get it! W...
                 </p>
               </div>
               <div class="testimonial">
-                <h4>Smooth Process</h4>
+                <h4>Easy transition</h4>
                 <div class="testimonial__meta">
                   <div class="stars">
                     <img src="/assets/img/star.png" />
@@ -254,9 +264,9 @@
                   <span>by Jeff on 8-4-2017</span>
                 </div>
                 <p>
-                  Jarryd was instrumental in making sure everything ran smoothly
-                  for us. He was readily available to answer any questions we
-                  asked. Was a pleasure to...
+                  Mina Moussa has been very helpful throughout the loan process.
+                  It was easy to get in touch with him either by phone or email
+                  when we had questions ...
                 </p>
               </div>
 

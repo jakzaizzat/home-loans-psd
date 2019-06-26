@@ -1,6 +1,6 @@
 // Variables
 
-$font-proxima: "Proxima Nova";
+$font-proxima: "Proxima Nova",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 
 $primary-color: #25a69d;
 $white: #ffffff;
@@ -9,3 +9,5 @@ $gray: #7c8786;
 
 $heading-color: #707070;
 $text-color: #616161;
+
+$md-breakpoint: 768px;
