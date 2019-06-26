@@ -128,7 +128,7 @@
   }
   .testimonial {
     font-size: 0.9rem;
-    padding: 15px 0;
+    padding: 10px 0;
     &__meta {
       font-size: 0.8rem;
       display: flex;
@@ -172,5 +172,31 @@
 
 footer {
   padding: 3rem 0;
-  background-color: #424242;
+  background-color: #f9f9f9;
+
+  ul {
+    li {
+      display: inline-block;
+      font-size: 0.9rem;
+      margin-right: 20px;
+    }
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #a5a5a5;
+    font-size: 0.9rem;
+    align-items: center;
+  }
 }

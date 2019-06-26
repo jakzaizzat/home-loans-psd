@@ -10561,6 +10561,11 @@ section {
   padding: 5rem 0;
 }
 
+a {
+  color: #25a69d;
+  font-weight: 700;
+}
+
 h2 {
   font-size: 2rem;
   color: #707070;
@@ -10790,7 +10795,7 @@ ul li span {
 
 .section-testimonial .testimonial {
   font-size: 0.9rem;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .section-testimonial .testimonial__meta {
@@ -10843,5 +10848,35 @@ ul li span {
 
 footer {
   padding: 3rem 0;
-  background-color: #424242;
+  background-color: #f9f9f9;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-right: 20px;
+}
+
+footer p {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #b0b0b0;
+}
+
+footer hr {
+  margin: 20px 0;
+}
+
+footer .footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #a5a5a5;
+  font-size: 0.9rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

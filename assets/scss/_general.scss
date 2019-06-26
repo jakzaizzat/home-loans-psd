@@ -11,6 +11,10 @@ body {
 section {
   padding: 5rem 0;
 }
+a {
+  color: $primary-color;
+  font-weight: 700;
+}
 h2 {
   font-size: 2rem;
   color: $heading-color;
